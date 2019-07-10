@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.mixed-chart {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.main-text {
+  height: 415px;
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  color: #bd0b62;
+  font-family: monospace;
+}
