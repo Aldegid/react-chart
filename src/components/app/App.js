@@ -85,7 +85,6 @@ class App extends Component {
   };
 
   tick = history => {
-    this.setUrl(history);
     if (currentYear === 0) {
       currentYear = START_YEAR;
       progress = PROGRESS_STEP;
@@ -97,7 +96,7 @@ class App extends Component {
       currentYear = START_YEAR;
       progress = PROGRESS_STEP;
     }
-
+    this.setUrl(history);
     this.setState(this.prepareCharData());
   };
 
